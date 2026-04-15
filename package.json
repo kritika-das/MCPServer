@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-cart-mcp-server",
+  "version": "1.0.0",
+  "description": "An MCP server that can browse an ecommerce site and add a product to the cart.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "keywords": [
+    "mcp",
+    "ecommerce",
+    "cart",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "playwright": "^1.59.1",
+    "zod": "^4.3.6"
+  }
+}
